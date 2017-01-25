@@ -6,4 +6,5 @@
 
 ## 使用方法
 `git clone https://github.com/SKhun/webpack-electron-react.git`
+
 `npm install`
