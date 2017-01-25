@@ -3,6 +3,7 @@
 ## 目的
 - Electronでデスクトップアプリの開発をするため
 - Webpack設定を残すため
+- 好きなReactでES2015形式でjsを書く
 
 ## 使用方法
 `$ git clone https://github.com/SKhun/webpack-electron-react.git`
@@ -12,6 +13,7 @@
 `$ npm start`
 
 ## 構成
+app フォルダーはbuild用（何でもいい、app・build・distとか）
 ```
 $ tree -I app
   |-- package.json
