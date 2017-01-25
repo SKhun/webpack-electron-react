@@ -9,6 +9,8 @@
 
 `npm install`
 
+`npm start`
+
 ## 参考サイト
 - https://webpack.js.org/
 - http://electron.atom.io/
