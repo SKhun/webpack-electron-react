@@ -5,15 +5,15 @@
 - Webpack設定を残すため
 
 ## 使用方法
-`git clone https://github.com/SKhun/webpack-electron-react.git`
+`$ git clone https://github.com/SKhun/webpack-electron-react.git`
 
-`npm install`
+`$ npm install`
 
-`npm start`
+`$ npm start`
 
 ## 構成
-
-  tree -I app
+```
+$ tree -I app
   |-- package.json
   |-- webpack.config.js
   |-- src
@@ -26,7 +26,7 @@
               |
               |--sass
                    |-- style.scss
-
+```
 
 ## 参考サイト
 - https://webpack.js.org/
