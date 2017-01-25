@@ -11,6 +11,23 @@
 
 `npm start`
 
+## 構成
+
+  tree -I app
+  |-- package.json
+  |-- webpack.config.js
+  |-- src
+       |-- browser
+       |      |-- main.js   // electronのindex.jsに変換する
+       |
+       |-- renderer
+              |-- app.jsx     // React jsxファイル
+              |-- index.html　　　　// Reactのindex.html
+              |
+              |--sass
+                   |-- style.scss
+
+
 ## 参考サイト
 - https://webpack.js.org/
 - http://electron.atom.io/
